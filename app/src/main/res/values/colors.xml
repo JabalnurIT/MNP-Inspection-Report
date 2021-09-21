@@ -10,6 +10,6 @@
     <color name="textColor">#1C4E63</color>
     <color name="blue">#4F9DBC</color>
     <color name="blue_muda">#CBE5F3</color>
-    <color name="blue_muda_transparant">#78CBE5F3</color>
+    <color name="blue_muda_transparant">#CCCBE5F3</color>
     <color name="blue_tua">#2F5E71</color>
 </resources>

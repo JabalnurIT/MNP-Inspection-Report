@@ -12,6 +12,7 @@
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         app:cardElevation="0dp"
+        app:cardBackgroundColor="@color/blue_muda_transparant"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -46,7 +47,7 @@
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="4dp"
+                android:layout_marginLeft="6dp"
                 android:orientation="vertical"
                 app:layout_constraintStart_toEndOf="@+id/cardView"
                 app:layout_constraintTop_toTopOf="@+id/cardView">
@@ -71,6 +72,7 @@
                             android:id="@+id/item_nama"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:layout_marginTop="3dp"
                             android:fontFamily="@font/poppins_sembold"
                             android:text="Item"
                             android:textColor="@color/blue_tua"
@@ -113,6 +115,7 @@
                     android:id="@+id/item_kerusakan"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
                     android:fontFamily="@font/poppins_sembold"
                     android:textColor="@color/blue_tua"
                     android:layout_marginStart="12dp"
